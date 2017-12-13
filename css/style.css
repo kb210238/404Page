@@ -1,0 +1,67 @@
+body {
+	background-color: white;  
+	background-image: url(../images/404_bg.jpg); 
+ 	background-repeat: no-repeat;  
+ 	background-attachment: scroll;  
+ 	background-size: cover;
+}
+header {	
+	text-align: center;
+	font-weight: bold;
+	font-size: 80px;
+}
+h1 {
+	margin: 20px 0 0;
+	text-align: center;
+	font-family: 'Norican', cursive;
+	font-size: 100px;
+}
+
+#footer {
+	position: relative;
+	width: 600px; 
+	height: 800px;
+}
+
+p {	
+	text-align: center;
+	font-family: 'Norican', cursive;
+	font-size: 30px;
+	bottom: 0;
+}
+
+.centerBoxes {
+	text-align: center;
+}
+#textBox {
+	height: 25px;
+	width: 600px;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#searchButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
